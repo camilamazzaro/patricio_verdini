@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%; /* (1rem=10px) */
+}
+
+.navbarTitle{
+    padding-left:6.7rem ;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.navText{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.navBar{
+    background-color: #262626;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.boxNav{
+    background-color: #FAFAFA;
+    width: 1920px;
+    height: 81px;
+  
+}
+
+.boxNav p{   
+    font-style: normal;
+    font-weight: 500;
+}
+
+.padingrig{
+    padding-right: 6.7rem;
+}
