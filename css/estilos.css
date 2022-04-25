@@ -1,3 +1,5 @@
+/* ----Generales---- */
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +9,9 @@
 html{
     font-size: 62.5%; /* (1rem=10px) */
 }
+
+
+/* ----Header---- */
 
 .navbarTitle{
     padding-left:6.7rem ;
@@ -35,7 +40,6 @@ html{
     background-color: #FAFAFA;
     width: 1920px;
     height: 81px;
-  
 }
 
 .boxNav p{   
@@ -46,3 +50,68 @@ html{
 .padingrig{
     padding-right: 6.7rem;
 }
+
+.active{
+    color: #139FF1 !important;
+}
+
+.whiteBoxText{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    margin-right: 10rem;
+}
+
+.gap{
+    display: grid;
+    gap: 8rem;
+    grid-auto-flow: column;
+}
+
+.mailText{
+    margin-right: 3rem;
+}
+
+/* ----Index---- */
+
+.bgIndex{
+    background-image: url(../assets/Inicio.png);
+    height: 100rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* .bgIndex::after {
+    background-image: url(../assets/bgAfter.png);
+    position: absolute;
+    height: 100rem;
+    z-index: -1;
+    content: "";
+    position: absolute;
+    
+} */
+
+.tittleIndex{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 84.4%;
+    color: #FFFFFF;
+    margin-top: 26rem;
+}
+
+.subtittleIndex{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    color: #FFFFFF;
+}
+
+
