@@ -115,7 +115,7 @@ html{
     margin-top: 26rem;
 }
 
-.subtittleIndex{
+.subtittle{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -219,3 +219,19 @@ html{
     border: #000000;
 }
 
+
+/*-----------página Cursos------------*/
+
+.cont_cursos{
+    padding-top: 20vh;
+    background-color: #262626;
+    height: 100vh;
+}
+
+.subtitulo_cursos{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
