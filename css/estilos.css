@@ -124,13 +124,13 @@ html{
     left: 50%;
 }
 
-.titulo_contenidoIndex{
+.titulo_contenido{
     color: #FFFFFF;
     font-family: 'Bebas Neue';
     font-size: 45px;
     padding-bottom: 4vh;
     text-align: center;
-    letter-spacing: 1.2px;
+    letter-spacing: 0.5vh;
 }
 
 .parrafo_contenidoIndex{
@@ -182,5 +182,31 @@ html{
 }
 
 
-/*Inicio de página SOBRE MÍ*/
+/*--------------Inicio de página SOBRE MÍ-------------------*/
 
+.sobre_mi{
+    background-color: #262626;
+    padding-left: 20vh;
+    padding-top: 20vh;
+    color: #FFFFFF;
+    height: auto;
+}
+
+.contenido_sobreMi{
+    font-size: 28px; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.texto_sobreMi{
+    font-weight: 350;
+    line-height: 119.4%;
+    letter-spacing: 1px;
+}
+
+.destacado_sobreMi{
+    color: #F9FE4A;
+}
+
+.img_sobreMi{
+    background: url;
+}
