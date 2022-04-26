@@ -13,6 +13,15 @@ html{
 
 /* ----Header---- */
 
+.insta{
+    text-decoration: none;
+    color: #000000;
+}
+
+.insta:hover{
+    color: #139FF1;
+}
+
 .navbarTitle{
     padding-left:6.7rem ;
     font-family: 'Bebas Neue';
@@ -147,21 +156,6 @@ html{
     color: #139FF1;
 }
 
-/*.botones{
-    font-weight: 600;
-    font-size: 20px;
-    color:#000000;
-
-    padding-bottom:15px;
-    padding-left:40px;
-    padding-right:40px;
-    background-color: transparent;
-    border-width: 3px;
-    border-style: solid;
-    border-color: #FFFFFF;
-
-}*/
-
 .btn_Index{
     display: flex;
     flex-wrap: wrap;
@@ -184,12 +178,18 @@ html{
 
 /*--------------Inicio de página SOBRE MÍ-------------------*/
 
-.sobre_mi{
+.seccion_sobreMi{
     background-color: #262626;
-    padding-left: 20vh;
+    padding-left: 17vh;
     padding-top: 20vh;
+}
+
+.sobre_mi{
     color: #FFFFFF;
-    height: auto;
+    height: 150vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 4vh;
 }
 
 .contenido_sobreMi{
@@ -208,5 +208,14 @@ html{
 }
 
 .img_sobreMi{
-    background: url;
+    background: url(../assets/Foto\ Patricio.png);
+    background-repeat: no-repeat;
+    height: 100%;
 }
+
+.btn_Amarillo:hover{
+    background-color: #F9FE4A;
+    color: #000000;
+    border: #000000;
+}
+
