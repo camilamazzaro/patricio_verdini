@@ -115,7 +115,7 @@ html{
     margin-top: 26rem;
 }
 
-.subtittle{
+.subtittleIndex{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -228,10 +228,27 @@ html{
     height: 100vh;
 }
 
-.subtitulo_cursos{
+.subtitulos{
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
     text-align: center;
     font-size: 30px;
     font-weight: 400;
 }
+
+
+
+/*--------------página Consultas----------------*/
+
+.s1{
+    background-color: #262626;
+    height: 60vh;
+    padding-top: 20vh;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.consultas{
+    height: 50vh;
+}
+
