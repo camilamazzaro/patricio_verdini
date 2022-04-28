@@ -10,7 +10,6 @@ html{
     font-size: 62.5%; /* (1rem=10px) */
 }
 
-
 /* ----Header---- */
 
 .insta{
@@ -94,16 +93,6 @@ html{
     background-attachment: fixed;
 }
 
-
-/* .bgIndex::after {
-    background-image: url(../assets/bgAfter.png);
-    position: absolute;
-    height: 100rem;
-    z-index: -1;
-    content: "";
-    position: absolute;
-    
-} */
 
 .tittleIndex{
     font-family: 'Bebas Neue';
@@ -257,3 +246,85 @@ html{
     height: 50vh;
 }
 
+/* ---CONTACTO--- */
+
+.tituloContacto{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 84.4%;
+    color: #FFFFFF;
+    margin-top: 26rem;
+    margin-left: 52.875rem;
+    margin-right: 52.875rem;
+
+}
+
+.contenedorContacto{
+    background-color: #262626;
+    height: 100vh;
+}
+
+.textoContacto{
+    margin-top: 4.688rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin-left: 27.313rem;
+    margin-right: 27.313rem;
+
+}
+
+form{
+    margin-left: 27.313rem;
+    margin-right: 27.313rem;
+
+}
+
+.botonContacto{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px; 
+    color: #FFFFFF;
+    padding-left: 13.094rem;
+    padding-right: 13.094rem;
+    background-color: #262626;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 4.125rem;
+}
+
+.inputContacto{
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    background-color:#262626;
+    margin-top: 1.25rem;
+    padding: 1.563rem 59.75rem 1.563rem  0.625rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 1.25rem;
+
+}
+
+.inputContacto2{
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    background-color:#262626;
+    margin-top: 1.25rem;
+    padding: 1.25rem 59.75rem 7.938rem  0.625rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 1.25rem;
+
+
+}
