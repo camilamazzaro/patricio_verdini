@@ -36,122 +36,159 @@
 </head>
 
 <body>
-    <header class="container-fluid">
-
-
-        <div class="row">
-
+    <header class="cabecera">
+    
+    
+        <div class="container-fluid row">
+    
             <div class="col-lg-12 col-md-6 col-sm-6 pt-3 pb-2 d-flex justify-content-end  ">
-
+    
                 <p class="whiteBoxText">
-
+    
                     <i class="bi bi-envelope"></i>
-
+    
                     <span class="mailText">
                         patricioverdini@gmail.com
                     </span>
-
+    
                     <a class="insta" href="https://www.instagram.com/patricioverdini/"><i class="bi bi-instagram"></i></a>
-
+    
                     <a class="insta" target="_blank" href="https://www.instagram.com/patricioverdini/">patricioverdini</a>
                 </p>
-
+    
             </div>
-
-
+    
         </div>
-
-
-
-
-        <div class="row">
-            <nav class="navBar navbar navbar-expand-lg navbar-dark  ">
-                <div class="container-fluid">
-                    <a class="navbar-brand navbarTitle" href="../index.html">Patricio Verdini</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
-
-                        <ul class="navbar-nav pr-5 mr-5 padingrig gap navText">
-                            <li class="nav-item">
-                                <a class="nav-link active transicion-nav" href="../index.html">inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/pages/sobremi.html">sobre mi</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/pages/consultas.html">consultas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/pages/cursos.html">cursos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">contacto</a>
-                            </li>
-                        </ul>
-                    </div>
+    
+        <nav class="navBar navbar navbar-expand-lg navbar-dark  ">
+            <div class="container-fluid">
+                <a class="navbar-brand navbarTitle" href="../index.html">Patricio Verdini</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+    
+                    <ul class="navbar-nav pr-5 mr-5  gap navText">
+                        <li class="nav-item">
+                            <a class="nav-link transicion-nav" href="../index.html">inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/sobremi.html">sobre mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/consultas.html">consultas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/cursos.html">cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/pages/contacto.html">contacto</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-
-        </div>
-
+            </div>
+        </nav>
+    
     </header>
 
-    <main class="container-fluid contenedorContacto">
+    <main class="contenedorContacto">
         
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <h1 class="tituloContacto text-center">CONTACTO</h1>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 boxContacto">
+                    <h1 class="tituloContacto">
+                        contacto
+                    </h1>
+                </div>
+    
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 boxTextoContacto ">
+                    <p class="textoContacto">
+                        Si querés agendar una sesión o no estás segurx de qué tipo de consulta es para vos, por favor completá este formulario y me pondré en contacto a la brevedad. 
+                    </p>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 boxFomulario">
+                    
+                    <form id="my-form" action="https://formspree.io/f/mjvlpeeg" method="POST" class="formularioContacto">
+
+                        <input name="name" required type="text" id="name" class="inputContacto" placeholder="Nombre*">
+
+                        <input name="email" type="text" id="email" required class="inputContacto" placeholder="Email*">
+
+                        <input class="inputContacto" type="number" placeholder="Telefono*">
+
+                        <input class="inputContacto" type="text" placeholder="Asunto*">
+
+                        <textarea id="message" name="message" class="inputContacto2" placeholder="Mensaje*"></textarea>
+
+                        <button type="submit" class="botonContacto">
+                            ENVIAR
+                        </button>
+                        
+                    </form>
+
+                    
+
+                </div>
+
             </div>
+
         </div>
 
-        <div class="row">
-            <div class="col-lg-12 col-md-12 d-flex justify-content-center">
-                <p class=" textoContacto">
-                    Si querés agendar una sesión o no estás segurx de qué tipo de consulta es para vos, por favor completá este formulario y me pondré en contacto a la brevedad. 
-                </p>
-            </div>
-        </div>
 
-        <div class="row">
 
-            <div class="col-lg-12 col-md-12 ">
-
-                <form class="-">
-
-                    <div class="mb-3">
-                        <input type="text" placeholder="Nombre*" class="form-control inputContacto ">
-                    </div>
-
-                    <div class="mb-3">
-                      <input type="email" placeholder="Email*" class="form-control inputContacto ">
-                    </div>
-
-                    <div class="mb-3">
-                        <input type="number" placeholder="Telefono*" class="form-control inputContacto ">
-                    </div>
-
-                    <div class="mb-3">
-                        <input type="text" placeholder="Asunto*" class="form-control inputContacto ">
-                    </div>
-
-                    <div class="mb-3">
-                        <input type="text" placeholder="Mensaje*" class="form-control inputContacto2 ">
-                    </div>
-
-                    <div class="d-flex justify-content-center">
-                        <button type="submit" class="botonContacto  ">ENVIAR</button>
-                    </div>
-
-                  </form>
-            </div>
-        </div>
-
+       
     </main>
 
+    <script>
+        /* const $form = document.querySelector('#form')
+
+        $form.addEventListener('submit', handleSubmit)
+
+        async function handleSubmit (event) {
+            event.preventDefault();
+            const form = new FormData(this);
+            const response = await fetch(this.action, {
+                method : this.method,
+                body : form,
+                headers : {
+                    'Accept' : 'application/json'
+                }
+            })
+            if (response.ok){
+                this.reset()
+                alert('funciono')
+            }
+        } */
+        var form = document.getElementById("my-form");
+    
+        async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("my-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            status.innerHTML = "Thanks for your submission!";
+            form.reset()
+        }).catch(error => {
+            status.innerHTML = "Oops! There was a problem submitting your form"
+        });
+        }
+        form.addEventListener("submit", handleSubmit)
+           
+    </script>
+
+    <!-- Boostrap scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 
 </html>

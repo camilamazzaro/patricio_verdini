@@ -11,6 +11,9 @@ html{
 }
 
 /* ----Header---- */
+.cabecera{
+    width: 100%;
+}
 
 .insta{
     text-decoration: none;
@@ -35,6 +38,11 @@ html{
     font-weight: 400;
     font-size: 28px;
 }
+
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
 
 .navBar{
     background-color: #262626;
@@ -69,14 +77,10 @@ html{
     font-weight: 500;
     font-size: 20px;
     color: #000000;
-    margin-right: 10rem;
+    margin-right: 5rem;
 }
 
-.gap{
-    display: grid;
-    gap: 8rem;
-    grid-auto-flow: column;
-}
+
 
 .mailText{
     margin-right: 3rem;
@@ -93,6 +97,9 @@ html{
     background-attachment: fixed;
 }
 
+.bgIndex2{
+    background-color: #262626;
+}
 
 .tittleIndex{
     font-family: 'Bebas Neue';
@@ -101,7 +108,10 @@ html{
     font-size: 130px;
     line-height: 84.4%;
     color: #FFFFFF;
-    margin-top: 26rem;
+}
+
+.boxTituloIndex{
+    padding-top: 22rem;
 }
 
 .subtittleIndex{
@@ -150,18 +160,22 @@ html{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 4vh;
+   
 }
 
 .btn{
-    width: 55vh;
-    height: 6vh;
     border: 3px solid #FFFFFF;
     border-radius: 10px;
     font-size: 25px;
     font-family: 'Bebas Neue' ;
     letter-spacing: 1px;
     text-align: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));  
+    text-decoration: none;
+}
+
+.anclaIndex{
+    text-decoration: none;
 }
 
 
@@ -248,6 +262,10 @@ html{
 
 /* ---CONTACTO--- */
 
+
+.boxContacto{
+    margin-top: 15rem ;
+}
 .tituloContacto{
     font-family: 'Bebas Neue';
     font-style: normal;
@@ -255,33 +273,36 @@ html{
     font-size: 130px;
     line-height: 84.4%;
     color: #FFFFFF;
-    margin-top: 26rem;
-    margin-left: 52.875rem;
-    margin-right: 52.875rem;
+    text-transform: uppercase;
+    text-align: center;
 
 }
 
 .contenedorContacto{
     background-color: #262626;
-    height: 100vh;
 }
 
-.textoContacto{
+.boxTextoContacto{
     margin-top: 4.688rem;
+}
+
+.textoContacto{   
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
     line-height: 37px;
     color: #FFFFFF;
-    margin-left: 27.313rem;
-    margin-right: 27.313rem;
-
+    text-align: left;
+  
 }
 
-form{
-    margin-left: 27.313rem;
-    margin-right: 27.313rem;
+.formularioContacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem 0;
 
 }
 
@@ -297,34 +318,47 @@ form{
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
-    margin-top: 4.125rem;
+    text-align: center;
+    
+    
 }
 
 .inputContacto{
     border: 1px solid #FFFFFF;
     border-radius: 10px;
+    color: #FAFAFA;
     background-color:#262626;
-    margin-top: 1.25rem;
-    padding: 1.563rem 59.75rem 1.563rem  0.625rem;
+    width: 100%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    margin-top: 1.25rem;
+    padding: 1.563rem 0;
+    padding: 1rem;
+    
+}
 
+textarea{
+    color: #FAFAFA;
 }
 
 .inputContacto2{
     border: 1px solid #FFFFFF;
     border-radius: 10px;
     background-color:#262626;
-    margin-top: 1.25rem;
-    padding: 1.25rem 59.75rem 7.938rem  0.625rem;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    margin-top: 1.25rem;
-
-
+    height: 18rem;
+    width: 100%;
+    padding: 1rem;
 }
+
+.boxFomulario{
+    margin-bottom: 5rem;
+}
+
+.display-none {
+    display: none;
+  }
