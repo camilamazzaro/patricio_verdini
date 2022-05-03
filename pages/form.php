@@ -19,6 +19,6 @@ $asunto2 = 'Este mail fue enviado desde la web de Patricio ';
 /* funcion mail */
 mail($para, $asunto2, utf8_decode($message), $header);
 
-header('Location:./pages/contactoSaludo.html);
+header("Location:contactoSaludo.html")
 
 ?>
