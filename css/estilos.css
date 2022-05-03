@@ -89,7 +89,7 @@ html{
 /* ----Index---- */
 
 .bgIndex{
-    background-image: url(../assets/Inicio.png);
+    background-image: url(../assets/index/Inicio.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -112,6 +112,10 @@ html{
 
 .boxTituloIndex{
     padding-top: 22rem;
+}
+
+.boxTituloIndex2{
+    margin-top: 6.75rem;
 }
 
 .subtittleIndex{
@@ -153,6 +157,7 @@ html{
 
 .resaltado_texto{
     color: #139FF1;
+    text-decoration: none;
 }
 
 .btn_Index{
@@ -169,13 +174,21 @@ html{
     font-size: 25px;
     font-family: 'Bebas Neue' ;
     letter-spacing: 1px;
-    text-align: center;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));  
-    text-decoration: none;
+    height: 8rem;
+    width: 80rem;
 }
 
 .anclaIndex{
     text-decoration: none;
+    color: white;
+}
+
+.boxBotones {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    gap: 2rem;
+   
 }
 
 
@@ -256,9 +269,98 @@ html{
     text-align: center;
 }
 
-.consultas{
-    height: 50vh;
+.s2{
+    background-image: url(../assets/consultas/bg1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    
 }
+
+.s3{
+    background-image: url(../assets/consultas/bg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+.s4{
+    background-image: url(../assets/consultas/bg3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+.anclaConsultas{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+.aConsulta{
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color:#000000;
+}
+
+.titulosConsultas{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.collapse{
+    margin-bottom: 4rem;
+}
+
+
+.cardConsultas1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 1px;
+    color: #000000;
+    align-self: center;
+    padding: 2rem;
+}
+
+.botonConsultas1{
+    background: #F9FE4A;
+    border-radius: 10px;
+    padding: 1rem;
+    border: none;
+}
+
+.botonConsultas2{
+    background: #69EB28;
+    border-radius: 10px;
+    padding: 1rem;
+    border: none;
+}
+
+.botonConsultas3{
+    background: #EB4D28;
+    border-radius: 10px;
+    padding: 1rem;
+    border: none;
+}
+
+
 
 /* ---CONTACTO--- */
 
@@ -280,6 +382,11 @@ html{
 
 .contenedorContacto{
     background-color: #262626;
+}
+
+.contenedorContacto2{
+    background-color: #262626;
+    height: 100vh;
 }
 
 .boxTextoContacto{
@@ -361,4 +468,5 @@ textarea{
 
 .display-none {
     display: none;
-  }
+   
+}
