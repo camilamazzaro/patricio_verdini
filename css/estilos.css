@@ -188,56 +188,64 @@ html{
     margin-bottom: 5rem;
     margin-top: 5rem;
     gap: 2rem;
-   
 }
 
 
 /*--------------Inicio de página SOBRE MÍ-------------------*/
 
-
+.seccion_sobreMi_mobile{
+    display: none;
+}
 
 .seccion_sobreMi{
     background-color: #262626;
     color: #FFFFFF;
-    padding-top: 10vh;
-    height: 100%;
-    width: 100%;
+    height: cover;
+    padding-bottom: 30px;
 }
 
-.sobre_mi{
-    padding-left: 40px;
-    height: 150vh;
-    display: grid;
-    grid-template-columns: 49.7% 49.7%;
-    grid-gap: 10px;
-    height: 100%;
+.contenedor_img{
+    background-image: url(/assets/Patricio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contenido_sobreMi{
-    font-size: 28px; 
+    height: 95%;
+    width: 100%;
+    font-size: 20px; 
     font-family: 'Montserrat', sans-serif;
 }
 
-.texto_sobreMi{
-    font-weight: 350;
-    line-height: 119.4%;
-    letter-spacing: 1px;
-    padding-bottom: 1%;
+.btn_Amarillo{
+    width: auto;
+    height: auto;
 }
 
-.destacado_sobreMi{
-    color: #F9FE4A;
-}
-
-.img_sobreMi{
-    background: url(../assets/Patricio.png);
-    background-repeat: no-repeat;
-}
 
 .btn_Amarillo:hover{
     background-color: #F9FE4A;
     color: #000000;
     border: #000000;
+}
+
+@media (max-width:970px) {
+    .seccion_sobreMi_mobile{
+        display: flex;
+        background-color: #262626;
+        color: #FFFFFF;
+        height: 100%;
+        padding: 40px
+    }
+
+    .contenido_sobreMi_mobile{
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .seccion_sobreMi{
+        display: none;
+    }
 }
 
 
