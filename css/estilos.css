@@ -205,7 +205,7 @@ html{
 }
 
 .contenedor_img{
-    background-image: url(/assets/Patricio.png);
+    background-image: url(../assets/Patricio.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
